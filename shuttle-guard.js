@@ -1,6 +1,6 @@
 var guard = {
     againstUndefined: function(value, name) {
-        if (value) {
+        if (value != undefined || value != null) {
             return;
         }
 
